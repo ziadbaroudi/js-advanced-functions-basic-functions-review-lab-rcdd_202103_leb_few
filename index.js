@@ -9,6 +9,6 @@ function mondayWork(){
 
 function wrapAdjective(effect = "*"){
   return function(a="special"){
-      return "You are ${effect}${a}${effect";    
+      return "You are ${effect}${a}${effect}";    
   }
 }

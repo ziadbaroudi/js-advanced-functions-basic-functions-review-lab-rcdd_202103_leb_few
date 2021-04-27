@@ -7,8 +7,8 @@ function mondayWork(){
   return "This Monday, I will go to work early";
 }
 
-function wrapAdjective(){
+function wrapAdjective(effect = "*"){
   return function(a="special"){
-      return "You are a nice person";    
+      return "You are ${effect}${a}${effect";    
   }
 }

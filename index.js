@@ -20,6 +20,11 @@ let Calculator = {
   subtract: function (a,b){
     return a-b;
   },
-  mu
+    multiply: function(a,b) {
+    return a * b
+  },
+  divide: function(a,b) {
+    return a / b;
+  }
   
 }

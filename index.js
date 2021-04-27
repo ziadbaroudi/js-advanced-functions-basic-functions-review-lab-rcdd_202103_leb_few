@@ -6,3 +6,9 @@ function saturdayFun(){
 function mondayWork(){
   return "This Monday, I will go to work early";
 }
+
+function wrapAdjective(){
+  return function(a="special"){
+      return "You are a nice person";    
+  }
+}

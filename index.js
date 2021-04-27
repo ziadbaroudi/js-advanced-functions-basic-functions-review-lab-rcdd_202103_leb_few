@@ -14,10 +14,10 @@ function wrapAdjective(effect = "*"){
 }
 
 let Calculator = {
-  function add(a,b){
+  add: function (a,b){
     return a+b;
   }
-  function subtract(a,b){
+  subtract: function (a,b){
     return a-b;
   }
   

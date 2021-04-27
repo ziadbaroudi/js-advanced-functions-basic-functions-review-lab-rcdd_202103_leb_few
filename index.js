@@ -3,8 +3,8 @@ function saturdayFun(r= "roller-skate"){
   return "This Satrurday, I want ${r}";
 }
 
-function mondayWork(){
-  return "This Monday, I will go to work early";
+function mondayWork(s="go to the office"){
+  return "This Monday, I will ${s}";
 }
 
 function wrapAdjective(effect = "*"){

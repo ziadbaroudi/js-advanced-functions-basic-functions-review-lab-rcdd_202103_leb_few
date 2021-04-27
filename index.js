@@ -29,11 +29,11 @@ let Calculator = {
   
 }
 
-let actionApplyer = function(start, ray) {
-  let a = start
+let actionApplyer = function(s, arr) {
+  let a = s
 
-  for (let i = 0; i < ray.length; i++ ){
-    a = ray[i](a)
+  for (let i = 0; i < arr.length; i++ ){
+    a = arr[i](a)
   }
 
   return a

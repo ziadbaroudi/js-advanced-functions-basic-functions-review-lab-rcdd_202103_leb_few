@@ -1,6 +1,6 @@
 // Your code here
-function saturdayFun(){
-  return "This Satrurday, I want to go out with my friends";
+function saturdayFun(r= "roller-skate"){
+  return "This Satrurday, I want ${r}";
 }
 
 function mondayWork(){
